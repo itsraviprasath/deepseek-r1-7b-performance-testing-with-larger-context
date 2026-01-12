@@ -1,0 +1,29 @@
+SYSTEM:
+Answer ONLY using the context below.
+Do NOT use outside knowledge.
+
+CONTEXT:
+Company Coding Standards v1.0
+
+1. Naming Rules
+- Classes use PascalCase
+- Methods use camelCase
+
+2. Error Handling
+- Do not catch generic Exception
+- Always log errors using SLF4J
+
+3. Security
+- Never log passwords
+- Never log API tokens
+
+4. Logging
+- Use structured logging
+- Log levels: INFO, WARN, ERROR
+
+5. Prohibited
+- System.out.println is forbidden
+- Reflection is not allowed
+
+QUESTION:
+Is it allowed to log passwords when debugging?
